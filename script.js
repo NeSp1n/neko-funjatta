@@ -6,9 +6,11 @@ var fecha = new Date();
 
 function nekoFunjatta(){
 
-    fechaActual = `${fecha.getDate()}/${fecha.getMonth()}/${fecha.getFullYear()}`
-
-    //alert(fechaActual);
-    document.getElementById('fecha').innerHTML = fechaActual
+    alert("Neko funjatta")
     
 }
+
+fechaActual = `${fecha.getDate()}/${fecha.getMonth()}/${fecha.getFullYear()}`
+
+    //alert(fechaActual);
+ document.getElementById('fecha').innerHTML = fechaActual
